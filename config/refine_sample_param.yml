@@ -1,0 +1,13 @@
+train:
+  data:
+    pose_repr_sample_dir_list:
+      - common/sample/main/sample/train/arch_mdm_l__0099
+    gaussian_perturb_range: [0.02, 0.1]
+val:
+  data:
+    pose_repr_sample_dir_list:
+      - common/sample/main/sample/val/arch_mdm_l__0399
+test:
+  data:
+    pose_repr_sample_dir_list:
+      - common/sample/main/sample/test/arch_mdm_l__0399

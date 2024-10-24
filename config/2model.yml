@@ -1,0 +1,23 @@
+model:
+  generation:
+    input_dim: 99
+    obj_input_dim: 9
+    hand_shape_dim: 10
+    obj_embed_dim: 768
+    latent_dim: 512
+    ff_size: 2048
+    num_layers: 8
+    num_heads: 4
+    dropout: 0.1
+    activation: "gelu"
+  refine:
+    input_dim: 99
+    obj_input_dim: 9
+    hand_shape_dim: 10
+    obj_embed_dim: 768
+    latent_dim: 256
+    ff_size: 1024
+    num_layers: 8
+    num_heads: 4
+    dropout: 0.1
+    activation: "gelu"

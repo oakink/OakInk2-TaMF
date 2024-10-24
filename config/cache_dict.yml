@@ -1,0 +1,6 @@
+train:
+  cache_dict_filepath: common/save_cache_dict/main/cache/train.pkl
+val:
+  cache_dict_filepath: common/save_cache_dict/main/cache/val.pkl
+test:
+  cache_dict_filepath: common/save_cache_dict/main/cache/test.pkl

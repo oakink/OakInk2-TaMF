@@ -1,0 +1,10 @@
+data:
+  enable_obj_model: true
+train:
+  loss:
+    vpe_path: asset/grabnet/verts_per_edge.npy
+    c_weight_path: asset/grabnet/rhand_weight.npy
+
+    coef_rec_joint_loss: 1.0
+    coef_rec_vert_loss: 1.0
+    coef_dist_h_loss: 0.1

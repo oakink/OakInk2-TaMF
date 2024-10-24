@@ -116,8 +116,7 @@ venv.bak/
 .idea/
 
 # workspace asset
-/data/**
-!/data/.gitkeep
+/data
 /asset/*
 !/asset/.gitkeep
 /exp/**
@@ -130,10 +129,8 @@ venv.bak/
 /notebook
 /tmp
 
-# whitelist /asset/markerset
-!/asset/robot
-/asset/robot/*
-!/asset/robot/mjcf
+# whitelist /asset/?
+!/asset/split
 
 # dev requirements
 requirements.txt

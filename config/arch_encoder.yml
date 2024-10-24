@@ -1,0 +1,11 @@
+model:
+  input_dim: 99
+  obj_input_dim: 9
+  hand_shape_dim: 10
+  obj_embed_dim: 768
+  latent_dim: 64
+  ff_size: 128
+  num_layers: 2
+  num_heads: 4
+  dropout: 0.1
+  activation: "gelu"

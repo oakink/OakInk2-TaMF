@@ -18,3 +18,6 @@
 [submodule "thirdparty/CLIP"]
 	path = thirdparty/CLIP
 	url = https://github.com/openai/CLIP.git
+[submodule "thirdparty/OakInk2"]
+	path = thirdparty/OakInk2
+	url = https://github.com/oakink/OakInk2.git
