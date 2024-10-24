@@ -1,0 +1,12 @@
+-r requirements.txt
+# dev
+jupyter
+paramiko
+black
+yapf
+flake8
+mypy
+isort
+rope
+pytest
+pylint
