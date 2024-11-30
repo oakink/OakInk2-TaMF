@@ -1,5 +1,8 @@
 <p align="center">
-  <h2 align="center">OakInk2: Task-aware Motion Fulfillment (TaMF)
+  <p align="center">
+    <img src="doc/logo@2x-80.png"" alt="Logo" width="40%">
+  </p>
+  <h2 align="center">Baseline Model: Task-aware Motion Fulfillment (TaMF)
 </h2>
 
   <p align="center">
@@ -26,11 +29,12 @@
       <img src='https://img.shields.io/badge/Paper-green?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=66cc00&color=94DD15' alt='Paper PDF'></a>
     <a href='https://oakink.net/v2'>
       <img src='https://img.shields.io/badge/Project-orange?style=for-the-badge&logo=Google%20chrome&logoColor=white&labelColor=D35400' alt='Project Page'></a>
+    <a href="https://www.youtube.com/watch?v=u8fV1TWUvdQ"><img alt="youtube views" src="https://img.shields.io/badge/Video-red?style=for-the-badge&logo=youtube&labelColor=ce4630&logoColor=red"/></a>
   </p>
 </p>
 
-This repo contains the training and evaluation of TaMF models on OakInk2 dataset.
-TaMF targets at the generation of hand motion sequences that can fulfill given object trajectories conditioned on task descriptions.
+This repo contains the training and evaluation of **TaMF models** on OakInk2 dataset.
+TaMF targets at the **generation of hand motion sequences** that can **fulfill given object trajectories** conditioned on **task descriptions**.
 
 <br><bf>
 <p align="center">
@@ -39,7 +43,7 @@ TaMF targets at the generation of hand motion sequences that can fulfill given o
 
 
 <!-- :warning: This work is based on the **preview-c11b3ff2** commit (Oct,24,2024) of the OakInk2 dataset. -->
-:warning: This work uses `object_raw` models, which are aligned and downsampled versions of raw object scans.
+:warning: This work uses `object_raw` models, which are aligned and downsampled from the objects' raw scans.
 
 ## Get Started
 
@@ -249,9 +253,7 @@ If you find OakInk2 dataset or OakInk2-TAMF repo useful for your research, pleas
 }
 ```
 
-<details><summary>MDM</summary>  
-
-This work is based on MDM. 
+<details><summary>Our TaMF model is based on the Motion Diffusion Model (MDM), please also cite: </summary>  
 
 ```bibtex
 @inproceedings{
