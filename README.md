@@ -63,7 +63,7 @@ TaMF targets at the **generation of hand motion sequences** that can **fulfill g
     `-- program
     ```
 
-    Refer to [oakink2_toolkit](https://github.com/kelvin34501/OakInk2-Toolkit) for more details.
+    Refer to [oakink2_toolkit](https://github.com/oakink/OakInk2) for more details.
 
 2. Setup the enviroment.
 
